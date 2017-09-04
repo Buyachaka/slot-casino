@@ -1,0 +1,42 @@
+<div >
+<iframe *ngIf="getState()" [src]='getcurrGame()' id="iframe" width="490" height="640" frameborder="0" scrolling="no" class="iframe visible" >
+	
+
+</iframe>
+
+<div id="lobby-layer" *ngIf="!getState()" >
+		<div class="left-arrow-games"> left arrow</div>
+		<div class="thumbs-controller-div"> 
+		<ul *ngIf="isCurrGameCategory('slots') || isCurrGameCategory('bingo')">
+		 	<a *ngFor="let gamethumb of getGameThumbs();let i = index"  id="juego{{gamethumb.displayName}}"class="thumbs" (click)="selectGame(gamethumb.url)">
+		 	<img style= "width: 168px;height: 103px;margin-left: 27px;"src="{{gamethumb.thumb}}">
+		        <div class="gamenames" >
+		        	{{gamethumb.displayName}}
+		        </div>
+		    </a>
+		</ul>
+
+		<ul *ngIf="isCurrGameCategory('memes')">
+
+		<iframe name='banner' src='http://afiliapub.com/affiliates/scripts/banner.php?a_aid=442502&amp;a_bid=db2aabf1&amp;w=1' framespacing='0' frameborder='no' scrolling='no' width='300' height='250' allowtransparency='true'><a href='http://afiliapub.com/affiliates/scripts/lgwe69qck32?a_aid=442502&amp;a_bid=db2aabf1' target='_top'>188BET CASINO BR RS 300x250</a></iframe>
+		
+		<iframe name='banner' src='http://afiliapub.com/affiliates/scripts/banner.php?a_aid=442502&amp;a_bid=4df0f1be&amp;w=1' framespacing='0' frameborder='no' scrolling='no' width='300' height='250' allowtransparency='true'><a href='http://afiliapub.com/affiliates/scripts/lgwe69qck32?a_aid=442502&amp;a_bid=4df0f1be' target='_top'>JOGOU GANHOU 300*250</a></iframe>
+
+		<iframe name='banner' src='http://afiliapub.com/affiliates/scripts/banner.php?a_aid=442502&amp;a_bid=4ba1354b&amp;w=1' framespacing='0' frameborder='no' scrolling='no' width='300' height='250' allowtransparency='true'><a href='http://afiliapub.com/affiliates/scripts/lgwe69qck32?a_aid=442502&amp;a_bid=4ba1354b' target='_top'>JOGOU GANHOU 300*250MIAMI</a></iframe>
+
+		<iframe name='banner' src='http://afiliapub.com/affiliates/scripts/banner.php?a_aid=442502&amp;a_bid=92873e2d&amp;w=1' framespacing='0' frameborder='no' scrolling='no' width='300' height='250' allowtransparency='true'><a href='http://afiliapub.com/affiliates/scripts/lgwe69qck32?a_aid=442502&amp;a_bid=92873e2d' target='_top'>BUMBET CASINO BR RS 300 x 250</a></iframe>
+
+		</ul>
+		</div>
+		<div class="right-arrow-games"> right arrow</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+

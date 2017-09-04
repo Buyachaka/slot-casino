@@ -1,0 +1,68 @@
+.top-panel {
+      height: 40px;
+    width: 800px;
+        margin-bottom: 0px;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 14px;
+ 
+}
+
+
+.categories-button {
+	text-align: center;
+    width: 100%;
+ 
+    width: 60%;
+    height: 94%;
+    margin-left: 31px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-size: 30px;
+    font-family: fantasy;
+
+  
+}
+.top-panel-option {
+	display: inline-block;
+	height: 40px;
+    width: 209px;
+	border-radius: 3px;
+	color: #fff;
+	padding-left:15px;
+	padding-right:15px;
+	float: left;
+	text-decoration: none;
+    padding-left: 42px;
+	cursor: pointer;
+}
+.bingo-button {
+  
+
+
+}
+.slot-button {
+ 
+
+}
+.memes-button {
+  
+
+}
+.top-panel-option:hover{
+	background: #e57c20;
+	
+
+}
+
+
+.ul-content {
+padding: 0px;
+       margin-top: 0px;
+    margin-right: 25px;
+}
+  
